@@ -62,6 +62,9 @@ main {
   .container {
     column-count: 2;
   }
+  .container img {
+    width: 98%;
+  }
 }
 
 @media (max-width: 768px) {
