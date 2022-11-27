@@ -62,9 +62,6 @@ main {
   .container {
     column-count: 2;
   }
-  .container img {
-    width: 98%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -72,8 +69,10 @@ main {
     margin-left: 5%;
     margin-right: 7%;
   }
-
   .container {
     column-count: 1;
+  }
+  .container img {
+    width: 98%;
   }
 }
