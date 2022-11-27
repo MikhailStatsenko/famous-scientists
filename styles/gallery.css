@@ -62,6 +62,14 @@ main {
   .container {
     column-count: 2;
   }
+  .container img {
+    border: none;
+  }
+  .img-block::before {
+    content: "";
+    left: 0;
+    height: calc(100% - 2.22rem);
+  }
 }
 
 @media (max-width: 768px) {
@@ -74,5 +82,12 @@ main {
   }
   .container img {
     width: 98%;
+    border: none;
+  }
+  .img-block::before {
+    content: "";
+    left: 0;
+    width: 98%;
+    height: calc(100% - 2.22rem);
   }
 }
